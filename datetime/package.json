@@ -1,0 +1,19 @@
+{
+    "name": "datetime-server",
+    "version": "1.0.0",
+    "description": "DateTime MCP server for LibreChat",
+    "type": "module",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "tsc -w"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "1.0.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    }
+}
